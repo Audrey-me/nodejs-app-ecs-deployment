@@ -10,8 +10,9 @@ Before you begin, make sure you have the following:
 - Basic knowledge of AWS, VPCs, Subnets, EC2, and security groups.
 - An EC2 instance launched with a public IP address, and you have downloaded the associated `.pem` private key file.
 
-## Step 1: SSH into Your EC2 Instance
+## Step 1: Set Up an EC2 Instance and SSH into it
 
+1. Create a security group, VPCs and Subnets for your EC2 instance
 1. Open your terminal.
 2. Use the `ssh` command to connect to your EC2 instance using the public IP address and the private key file you downloaded:
 
