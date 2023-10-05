@@ -7,7 +7,7 @@ This guide will walk you through setting up the **nodejs-app-ecs-deployment** ap
 Before you begin, make sure you have the following:
 
 - An Amazon Web Services (AWS) account.
-- Basic knowledge of AWS, EC2, and security groups.
+- Basic knowledge of AWS, VPCs, EC2, and security groups.
 - An EC2 instance launched with a public IP address, and you have downloaded the associated `.pem` private key file.
 
 ## Step 1: SSH into Your EC2 Instance
