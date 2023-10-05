@@ -1,6 +1,6 @@
 # nodejs-app-ecs-deployment Setup Guide
 
-This guide will walk you through deploying the **nodejs-app-ecs-deployment** application on an Amazon EC2 instance and it works in hand with this blog post 
+This guide will walk you through setting up the **nodejs-app-ecs-deployment** application on an Amazon EC2 instance and it works in hand with this blog post 
 
 ## Prerequisites
 
