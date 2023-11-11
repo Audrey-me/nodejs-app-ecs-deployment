@@ -34,7 +34,7 @@ function formValidate(event) {
         email : email,
         phone : phone
     }
-    // call the handleSubmit which we use to interact wit the API Gateway
+    
     handleSubmit(formResponse)
     
     }
@@ -42,10 +42,8 @@ function formValidate(event) {
 }
 async function handleSubmit(userInfo) {
     try {
-        // get your backend url eg "http://35.170.51.172:3000/profile" 
-        // 35.170.51.172 refers to the public ip address of either EC2 or ECS task
-       
-        const response = await fetch('http://3.235.185.201:3000/profile', {
+        // replace 54.202.117.246 with the Public API from your ECS
+        const response = await fetch('http://54.202.117.246:3000/profile', {
             method: 'POST',
             headers: {
                 'Accept': 'application/json',
