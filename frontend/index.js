@@ -33,8 +33,7 @@ function formValidate(event) {
         name : name,
         email : email,
         phone : phone
-    }
-    
+    } 
     handleSubmit(formResponse)
     
     }
@@ -43,7 +42,7 @@ function formValidate(event) {
 async function handleSubmit(userInfo) {
     try {
         // replace 54.202.117.246 with the Public API from your ECS
-        const response = await fetch('http://54.202.117.246:3000/profile', {
+        const response = await fetch('http://35.165.30.68:3000/profile', {
             method: 'POST',
             headers: {
                 'Accept': 'application/json',

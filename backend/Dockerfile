@@ -1,5 +1,5 @@
 # Use an official Node.js runtime as a parent image
-FROM node:18-alpine
+FROM node:16-alpine
 
 # Copy all the backend related files(server.js, package.json) to the container
 COPY . .
