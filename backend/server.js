@@ -16,7 +16,6 @@ app.get('/', function (req, res) {
 
 
 // Define the MongoDB connection URL and options
-
 const mongoUrl = process.env.MONGODB_URL
 const mongoClientOptions = { useNewUrlParser: true, useUnifiedTopology: true };
 
